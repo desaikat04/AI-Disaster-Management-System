@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    font-family:"Segoe UI",sans-serif;
+    background:#111827;
+}
+
+.dashboard-title{
+    font-size:38px;
+    font-weight:700;
+    color:rgb(234, 234, 242);
+    margin-bottom:30px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    margin-bottom:40px;
+}
+
+.dashboard-card{
+    background:#1F2937;
+    border:1px solid #374151;
+    border-radius:18px;
+    padding:28px;
+    text-align:center;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.dashboard-card:hover{
+    transform:translateY(-6px);
+    border-color:#3B82F6;
+}
+
+.dashboard-card h3{
+    color:#D1D5DB;
+    margin:0;
+    font-size:22px;
+}
+
+.dashboard-card h1{
+    color:#60A5FA;
+    font-size:52px;
+    margin-top:20px;
+}
+
+.section-title{
+    color:white;
+    margin:40px 0 20px;
+    font-size:30px;
+}
+
+.dashboard-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#1F2937;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.dashboard-table thead{
+    background:#0F172A;
+}
+
+.dashboard-table th{
+    color:white;
+    padding:18px;
+}
+
+.dashboard-table td{
+    color:#E5E7EB;
+    padding:18px;
+    border-bottom:1px solid #374151;
+}
+
+.dashboard-table tbody tr:hover{
+    background:#2A3648;
+}
